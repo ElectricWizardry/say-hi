@@ -1,0 +1,35 @@
+{
+  "name": "say-hi",
+  "version": "0.0.1",
+  "description": "Express middleware to say hi and monitor uptime",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'hi from say-hi'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElectricWizardry/say-hi"
+  },
+  "keywords": [
+    "hi",
+    "hello",
+    "world",
+    "express",
+    "middleware",
+    "uptime",
+    "monitoring"
+  ],
+  "author": {
+    "name": "Eric Bailey",
+    "email": "eric@ericb.me",
+    "url": "https://github.com/yurrriq"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "http://ew.mit-license.org"
+  },
+  "bugs": {
+    "url": "https://github.com/ElectricWizardry/say-hi"
+  },
+  "homepage": "https://github.com/ElectricWizardry/say-hi"
+}
