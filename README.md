@@ -29,3 +29,6 @@ Content-Type: application/json
   "uptime": 12345
 }
 ```
+
+# License
+[MIT](http://ew.mit-license.org)
