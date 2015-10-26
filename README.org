@@ -39,7 +39,7 @@ node_modules
 #+BEGIN_SRC json :tangle package.json :exports none
 {
   "name": "say-hi",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Express middleware to say hi and monitor uptime",
   "main": "index.js",
   "scripts": {
