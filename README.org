@@ -5,7 +5,7 @@
   :END:
 [[https://github.com/strongloop/express][Express]] middleware to say hi and monitor uptime.
 
-#+BEGIN_SRC conf :tangle .gitignore
+#+BEGIN_SRC conf :tangle .gitignore :exports none
 # Logs
 logs
 *.log
@@ -135,7 +135,7 @@ Content-Type: application/json
    :END:
 [[http://ew.mit-license.org/2014][MIT]]
 
-#+BEGIN_SRC text :tangle LICENSE
+#+BEGIN_SRC text :tangle LICENSE :exports none
 The MIT License (MIT)
 Copyright © 2014-2015 Electric Wizardry, LLC
 
