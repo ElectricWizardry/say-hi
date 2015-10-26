@@ -38,7 +38,7 @@ node_modules
 #+BEGIN_SRC json :tangle package.json :exports none
 {
   "name": "say-hi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Express middleware to say hi and monitor uptime",
   "main": "index.js",
   "scripts": {
@@ -67,7 +67,7 @@ node_modules
     "url": "http://ew.mit-license.org"
   },
   "bugs": {
-    "url": "https://github.com/ElectricWizardry/say-hi"
+    "url": "https://github.com/ElectricWizardry/say-hi/issues"
   },
   "homepage": "https://github.com/ElectricWizardry/say-hi"
 }
