@@ -1,0 +1,31 @@
+* say-hi
+[[https://github.com/strongloop/express][Express]] middleware to say hi and monitor uptime.
+
+** Usage
+#+BEGIN_SRC javascript
+var app = require('express')()
+app.use(require('say-hi')('example'))
+app.listen(process.env.PORT || 3000)
+#+END_SRC
+
+** Request
+#+BEGIN_SRC http
+GET /status HTTP/1.1
+Accept: application/json
+Host: example.com
+#+END_SRC
+
+** Response
+#+BEGIN_SRC http
+HTTP/1.1 200 OK
+Content-Type: application/json
+#+END_SRC
+#+BEGIN_SRC json
+{
+  "status": "hi from example",
+  "uptime": 12345
+}
+#+END_SRC
+
+** License
+[[http://ew.mit-license.org/2014][MIT]]
